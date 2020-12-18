@@ -63,8 +63,8 @@ forvalues i = 1/6{
 
 use ad_duration_1, clear
 
-forvalues i = 1/5{
-	append using ad_duration_`i+1'
+forvalues i = 2/6{
+	append using ad_duration_`i'
 }
 
 save ad_duration
@@ -77,6 +77,6 @@ destring year, replace
 destring month, replace
 destring day, replace
 
-gsort year, month, day, hour, minute
+gsort year month day hour minute
 
 save data4model
