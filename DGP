@@ -79,4 +79,4 @@ destring day, replace
 
 gsort year month day hour minute
 
-save data4model
+save data4model, replace
