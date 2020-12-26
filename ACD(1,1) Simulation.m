@@ -6,7 +6,7 @@ addpath('Func');
 
 nr=1000;    % No. of observations in the simulation
 
-dist='exp';  % dist='exp';
+dist='exp';  % dist='exp' or 'weibull';
 
 Coeff.w=.1893; % constant in expected duration (psi)
 Coeff.q=.1422; % Coeff at duration in t-1 (alpha)
