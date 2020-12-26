@@ -5,7 +5,7 @@ load addur.mat;
 addpath('Func');
 dur = addur;
 
-dist='exp';   % dist='weibull';
+dist='exp';   % dist='exp' or 'weibull';
 
 stdMethod=1;   % standard error calculation
 
